@@ -1,57 +1,45 @@
-# Project Name
+# Microsoft DataPrep .Net SDK
 
-(short, 1-3 sentenced, description of the project)
+The Microsoft DataPrep SDK is used to load, transform, and write data for machine learning workflows. You can interact with the SDK in any dotnetcore environment.
 
 ## Features
 
-This project framework provides the following features:
+This project provides the following features:
 
-* Feature 1
-* Feature 2
-* ...
+* Automatic delimited file type detection. The SDK can automatically detect whether your data is in any of the supported delimited file types. You don’t need to use special file readers for formats, or to specify delimiter, header, or encoding parameters.
+
+
+* Summary statistics can be generated quickly for a dataflow with a single line of code.
+
+* Complicated data prepare task can be archived through a serial of data flow steps.
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
 
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
+- dotnetcore 2.1
+- nuget.org access
+- Visual Studio 2017
 
 ### Quickstart
-(Add steps to get up and running quickly)
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+1. git clone https://github.com/Azure-Samples/DataPrep.Net
+2. cd DataPrep.Net\Samples
+3. Launch DataPrepSample.sln in the sample project.
 
 
 ## Demo
 
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
+1. Rebuild the DataPrepSample project.
+2. Run the DataPrepSample project.
+3. Open the result.csv under project.
+4. Verify the data is cleaned up.
 
 ## Resources
 
 (Any additional resources or related projects)
 
-- Link to supporting information
-- Link to similar sample
-- ...
+- Project URL (https://aka.ms/dataprep.net-ref-doc)
+- ML.Net (https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet)
+
