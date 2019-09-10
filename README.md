@@ -1,3 +1,13 @@
+---
+page_type: sample
+languages:
+- aspx
+products:
+- azure
+description: "The Microsoft DataPrep SDK is used to load, transform, and write data for machine learning workflows. You can interact with the SDK in any dotnetcore environment."
+urlFragment: dataprep-dotnet
+---
+
 # Microsoft DataPrep .Net SDK
 
 The Microsoft DataPrep SDK is used to load, transform, and write data for machine learning workflows. You can interact with the SDK in any dotnetcore environment.
